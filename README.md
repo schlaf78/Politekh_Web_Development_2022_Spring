@@ -1,4 +1,4 @@
-# README
+§# README
 
 # Politekh_Web_Development_Spring2022
 Санкт-Петербургский Политехнический университет Петра Великого, курс Методики разработки современных WEB-приложений", Иванищев Алексей Вячеславович., 2021-2022
@@ -16,3 +16,7 @@ copypaste text below:
 task routes: :environment do
   puts `bundle exec rails routes`
 end
+
+
+13.03.02
+Lab 1 + Lab 2 complete but could miss some points

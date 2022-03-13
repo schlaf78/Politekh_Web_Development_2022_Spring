@@ -27,6 +27,27 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem "haml-rails", "~> 2.0"
+
+gem 'slim'
+gem "slim-rails"
+
+# Use jquery as the JavaScript library
+gem 'jquery-ui-rails'
+gem 'rails-asset-jqueryui'
+
+gem 'bootstrap-sass', '3.3.7'
+
+gem 'sassc-rails'
+
+# Use SАSS for stylesheets
+#gem 'sass-rails', '~> 5.0'
+#уже применяется в Rails v. 5/6.
+
+# Icons fonts
+gem 'font-awesome-sass' #, '~> 4.6.2'
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -44,6 +65,17 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+
+# Call 'byebug' anywhere in the code to stop execution and
+gem 'byebug', platform: :mri
+
+# Лучше отображает ошибки
+gem "better_errors"
+gem "binding_of_caller"
+
+# Pagination
+gem 'will_paginate'
+gem 'kaminari'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
